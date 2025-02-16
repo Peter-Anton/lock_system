@@ -1,0 +1,34 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+frequency                                                                         0x0164       4
+buffer                                                                            0x0168      16
+prev_capture                                                                      0x0178       4
+_base_y                                                                           0x017C       4
+_seed                                                                             0x0180       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+_lcd_x                                                                            R5           1
+_lcd_y                                                                            R4           1
+_lcd_maxx                                                                         R7           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ultoa_custom                                                                      0x0006A    110
+main                                                                              0x000D8     47
+timer1_ovf_isr                                                                    0x00107     12
+timer1_capt_isr                                                                   0x00113     77
+_lcd_write_nibble_G100                                                            0x00160     20
+_lcd_write_data                                                                   0x00174     13
+lcd_gotoxy                                                                        0x00181     13
+lcd_clear                                                                         0x0018E     12
+lcd_putchar                                                                       0x0019A     21
+lcd_puts                                                                          0x001AF     17
+lcd_init                                                                          0x001C0     46
